@@ -57,3 +57,11 @@ export default async function BranchPage({ params }: Props) {
     </main>
   );
 }
+
+export async function generateStaticParams() {
+  const ds = getDataSource();
+  const all = await ds.getAll();
+  const branches = [...new Set(all.map((p) => p.branch).filter(Boolean))];
+
+  return branches.map((name) => ({ name: encodeURIComponent(name) }));
+}

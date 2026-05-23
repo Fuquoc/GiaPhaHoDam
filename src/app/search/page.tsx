@@ -1,16 +1,26 @@
-import { getDataSource } from '@/lib/data';
+'use client';
+
+import { Suspense } from 'react';
+import { useSearchParams } from 'next/navigation';
+import familyData from '@/data/family.json';
 import SearchBox from '@/components/SearchBox';
 import PersonCard from '@/components/PersonCard';
 import Link from 'next/link';
+import type { FamilyData } from '@/lib/data/types';
 
-interface Props {
-  searchParams: Promise<{ q?: string }>;
-}
-
-export default async function SearchPage({ searchParams }: Props) {
-  const { q = '' } = await searchParams;
-  const ds = getDataSource();
-  const results = await ds.search(q);
+function SearchContent() {
+  const searchParams = useSearchParams();
+  const q = searchParams.get('q')?.trim() ?? '';
+  const data = familyData as FamilyData;
+  const query = q.toLowerCase();
+  const results = query
+    ? data.members.filter(
+        (p) =>
+          p.name.toLowerCase().includes(query) ||
+          p.aliases.some((a) => a.toLowerCase().includes(query)) ||
+          p.notes.toLowerCase().includes(query)
+      )
+    : [];
 
   return (
     <main className="min-h-screen bg-gray-50">
@@ -40,11 +50,18 @@ export default async function SearchPage({ searchParams }: Props) {
           </div>
         ) : q ? (
           <div className="text-center py-12 text-gray-400">
-            <p className="text-4xl mb-2">🔍</p>
             <p>Không tìm thấy thành viên nào với tên &ldquo;{q}&rdquo;</p>
           </div>
         ) : null}
       </div>
     </main>
+  );
+}
+
+export default function SearchPage() {
+  return (
+    <Suspense fallback={<main className="min-h-screen bg-gray-50" />}>
+      <SearchContent />
+    </Suspense>
   );
 }
