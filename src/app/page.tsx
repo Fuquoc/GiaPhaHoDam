@@ -1,65 +1,85 @@
-import Image from "next/image";
+import { getDataSource } from '@/lib/data';
+import SearchBox from '@/components/SearchBox';
+import GenerationRow from '@/components/GenerationRow';
 
-export default function Home() {
+export default async function HomePage() {
+  const ds = getDataSource();
+  const all = await ds.getAll();
+
+  const byGen = new Map<number, typeof all>();
+  const noGen: typeof all = [];
+
+  for (const p of all) {
+    if (p.generation == null) {
+      noGen.push(p);
+    } else {
+      const arr = byGen.get(p.generation) ?? [];
+      arr.push(p);
+      byGen.set(p.generation, arr);
+    }
+  }
+
+  const generations = [...byGen.keys()].sort((a, b) => a - b);
+  const branches = [...new Set(all.map((p) => p.branch).filter(Boolean))].sort();
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <main className="min-h-screen bg-gray-50">
+      <header className="bg-white border-b border-gray-200 px-4 py-4 sticky top-0 z-10 shadow-sm">
+        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+          <div className="flex items-center gap-3">
+            <h1 className="text-xl font-bold text-gray-900">Gia Phả Họ Đàm</h1>
+            <span className="text-gray-300">|</span>
+            <div className="flex text-sm rounded-lg overflow-hidden border border-gray-200">
+              <span className="px-3 py-1.5 bg-blue-600 text-white font-medium">Theo đời</span>
+              <a href="/tree" className="px-3 py-1.5 bg-white text-gray-600 hover:bg-gray-50 transition-colors">
+                Cây gia phả
+              </a>
+            </div>
+            <p className="text-xs text-gray-400 hidden sm:block">{all.length} thành viên</p>
+          </div>
+          <SearchBox />
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </header>
+
+      <div className="max-w-5xl mx-auto px-4 py-6">
+        <div className="flex flex-wrap gap-2 mb-6">
+          <span className="text-xs font-medium text-gray-500 self-center">Lọc theo nhánh:</span>
+          {branches.map((b) => (
+            <a
+              key={b}
+              href={`/branch/${encodeURIComponent(b)}`}
+              className="text-xs bg-white border border-gray-200 rounded-full px-3 py-1 hover:bg-blue-50 hover:border-blue-300 transition-colors"
+            >
+              {b}
+            </a>
+          ))}
         </div>
-      </main>
-    </div>
+
+        {generations.map((gen) => (
+          <GenerationRow
+            key={gen}
+            generation={gen}
+            members={byGen.get(gen) ?? []}
+          />
+        ))}
+
+        {noGen.length > 0 && (
+          <div className="mt-4">
+            <h3 className="text-sm text-gray-400 mb-2">Chưa xác định đời</h3>
+            <div className="flex flex-wrap gap-2">
+              {noGen.map((p) => (
+                <a
+                  key={p.id}
+                  href={`/person/${p.id}`}
+                  className="text-xs border rounded px-2 py-1 text-gray-600 hover:bg-gray-100"
+                >
+                  {p.name}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    </main>
   );
 }
