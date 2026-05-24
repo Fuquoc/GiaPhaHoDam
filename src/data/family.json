@@ -11,7 +11,11 @@
       "fatherId": null,
       "motherId": null,
       "spouseIds": [],
-      "childrenIds": ["d001", "d001b", "d001c"],
+      "childrenIds": [
+        "d001",
+        "d001b",
+        "d001c"
+      ],
       "generation": null,
       "branch": "Gốc họ Đàm",
       "photo": "",
@@ -29,11 +33,15 @@
       "fatherId": "root",
       "motherId": null,
       "spouseIds": [],
-      "childrenIds": ["d002"],
+      "childrenIds": [
+        "d002"
+      ],
       "generation": 1,
       "branch": "Ngành trưởng",
       "photo": "",
-      "aliases": ["Đàm Phú Chính"],
+      "aliases": [
+        "Đàm Phú Chính"
+      ],
       "notes": "Tiền tổ đời 1, ngành trưởng. Tuyến nhánh Đàm Phú Lạc đang được nối theo ngành này; các đời 2-5 cần kiểm chứng chi tiết khi nhập chuẩn."
     },
     {
@@ -51,7 +59,9 @@
       "generation": 1,
       "branch": "Ngành thứ hai",
       "photo": "",
-      "aliases": ["Đàm Phú Trực"],
+      "aliases": [
+        "Đàm Phú Trực"
+      ],
       "notes": "Tiền tổ đời 1, ngành thứ hai. Nhà thờ ngành thứ hai trên đất nhà ông Đàm Viết Soạn."
     },
     {
@@ -69,7 +79,9 @@
       "generation": 1,
       "branch": "Ngành thứ ba",
       "photo": "",
-      "aliases": ["Đàm Phú Thủ"],
+      "aliases": [
+        "Đàm Phú Thủ"
+      ],
       "notes": "Tiền tổ đời 1, ngành thứ ba. Nhà thờ ngành thứ ba trên đất nhà ông Đàm Viết Diệt."
     },
     {
@@ -83,11 +95,17 @@
       "fatherId": "d001",
       "motherId": null,
       "spouseIds": [],
-      "childrenIds": ["d003"],
+      "childrenIds": [
+        "d003"
+      ],
       "generation": 2,
       "branch": "Ngành trưởng",
       "photo": "",
-      "aliases": ["Đàm Nhất Lang tự Phú Nhuận", "Đàm Nhị Lang tự Trung Kính", "Đàm Nhất Lang tự Nhân Đức"],
+      "aliases": [
+        "Đàm Nhất Lang tự Phú Nhuận",
+        "Đàm Nhị Lang tự Trung Kính",
+        "Đàm Nhất Lang tự Nhân Đức"
+      ],
       "notes": "Đời 2 trong cổ phả có nhiều tên/tự/hiệu. Đang gom thành một nút để nối cây trực quan từ đời 1 đến nhánh Đàm Phú Lạc."
     },
     {
@@ -101,11 +119,17 @@
       "fatherId": "d002",
       "motherId": null,
       "spouseIds": [],
-      "childrenIds": ["d004"],
+      "childrenIds": [
+        "d004"
+      ],
       "generation": 3,
       "branch": "Ngành trưởng",
       "photo": "",
-      "aliases": ["Đàm Quý Công tự Pháp Thiện", "Đàm Tam Lang hiệu Bình Tâm", "Đàm Tứ Lang tự Phúc Sinh"],
+      "aliases": [
+        "Đàm Quý Công tự Pháp Thiện",
+        "Đàm Tam Lang hiệu Bình Tâm",
+        "Đàm Tứ Lang tự Phúc Sinh"
+      ],
       "notes": "Đời 3 trong cổ phả; cần tách thành từng người khi có bản gốc rõ hơn."
     },
     {
@@ -119,11 +143,16 @@
       "fatherId": "d003",
       "motherId": null,
       "spouseIds": [],
-      "childrenIds": ["d005"],
+      "childrenIds": [
+        "d005"
+      ],
       "generation": 4,
       "branch": "Ngành trưởng",
       "photo": "",
-      "aliases": ["Đàm Quý Công tự Phúc Dũng", "Đàm Quý Công tự Pháp Tiền"],
+      "aliases": [
+        "Đàm Quý Công tự Phúc Dũng",
+        "Đàm Quý Công tự Pháp Tiền"
+      ],
       "notes": "Đời 4 trong cổ phả; đang gom để giữ mạch cây."
     },
     {
@@ -137,11 +166,15 @@
       "fatherId": "d004",
       "motherId": null,
       "spouseIds": [],
-      "childrenIds": ["d006"],
+      "childrenIds": [
+        "d006"
+      ],
       "generation": 5,
       "branch": "Ngành trưởng",
       "photo": "",
-      "aliases": ["Đàm Quý Công tự Phúc Cẩn"],
+      "aliases": [
+        "Đàm Quý Công tự Phúc Cẩn"
+      ],
       "notes": "Đời 5 trong cổ phả; đang gom để giữ mạch cây."
     },
     {
@@ -154,8 +187,16 @@
       "deathPlace": "",
       "fatherId": "d005",
       "motherId": null,
-      "spouseIds": ["d006w1", "d006w2"],
-      "childrenIds": ["d007", "d007b", "d007c", "d007d"],
+      "spouseIds": [
+        "d006w1",
+        "d006w2"
+      ],
+      "childrenIds": [
+        "d007",
+        "d007b",
+        "d007c",
+        "d007d"
+      ],
       "generation": 6,
       "branch": "Ngành trưởng",
       "photo": "",
@@ -172,12 +213,21 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["d006"],
-      "childrenIds": ["d007", "d007b", "d007c", "d007d"],
+      "spouseIds": [
+        "d006"
+      ],
+      "childrenIds": [
+        "d007",
+        "d007b",
+        "d007c",
+        "d007d"
+      ],
       "generation": 6,
       "branch": "Ngành trưởng",
       "photo": "",
-      "aliases": ["Hiệu Huệ Châu"],
+      "aliases": [
+        "Hiệu Huệ Châu"
+      ],
       "notes": "Vợ cả cụ Đàm Quý Công tự Phúc Bách."
     },
     {
@@ -190,12 +240,16 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["d006"],
+      "spouseIds": [
+        "d006"
+      ],
       "childrenIds": [],
       "generation": 6,
       "branch": "Ngành trưởng",
       "photo": "",
-      "aliases": ["Hiệu Từ Hiếu"],
+      "aliases": [
+        "Hiệu Từ Hiếu"
+      ],
       "notes": "Vợ lẽ cụ Đàm Quý Công tự Phúc Bách."
     },
     {
@@ -208,8 +262,12 @@
       "deathPlace": "",
       "fatherId": "d006",
       "motherId": "d006w1",
-      "spouseIds": ["d007w"],
-      "childrenIds": ["a008"],
+      "spouseIds": [
+        "d007w"
+      ],
+      "childrenIds": [
+        "a008"
+      ],
       "generation": 7,
       "branch": "Ngành trưởng",
       "photo": "",
@@ -226,8 +284,12 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["d007"],
-      "childrenIds": ["a008"],
+      "spouseIds": [
+        "d007"
+      ],
+      "childrenIds": [
+        "a008"
+      ],
       "generation": 7,
       "branch": "Ngành trưởng",
       "photo": "",
@@ -285,7 +347,9 @@
       "generation": 7,
       "branch": "Ngành trưởng",
       "photo": "",
-      "aliases": ["Hiệu Đinh Đức"],
+      "aliases": [
+        "Hiệu Đinh Đức"
+      ],
       "notes": "Ảnh ghi chưa có thông tin vợ/con."
     },
     {
@@ -298,8 +362,12 @@
       "deathPlace": "",
       "fatherId": "d007",
       "motherId": "d007w",
-      "spouseIds": ["a008w"],
-      "childrenIds": ["a009"],
+      "spouseIds": [
+        "a008w"
+      ],
+      "childrenIds": [
+        "a009"
+      ],
       "generation": 8,
       "branch": "Tuyến tổ",
       "photo": "",
@@ -316,8 +384,12 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["a008"],
-      "childrenIds": ["a009"],
+      "spouseIds": [
+        "a008"
+      ],
+      "childrenIds": [
+        "a009"
+      ],
       "generation": 8,
       "branch": "Tuyến tổ",
       "photo": "",
@@ -334,12 +406,19 @@
       "deathPlace": "",
       "fatherId": "a008",
       "motherId": "a008w",
-      "spouseIds": ["a009w1", "a009w2"],
-      "childrenIds": ["a010"],
+      "spouseIds": [
+        "a009w1",
+        "a009w2"
+      ],
+      "childrenIds": [
+        "a010"
+      ],
       "generation": 9,
       "branch": "Tuyến tổ",
       "photo": "",
-      "aliases": ["Đàm Đức Khoan"],
+      "aliases": [
+        "Đàm Đức Khoan"
+      ],
       "notes": "Vợ cả: Tống Thị Xuân; vợ lẽ: Trần Thị Tiền. Tên Đàm Phú Khoan / Đàm Đức Khoan cần kiểm chứng."
     },
     {
@@ -352,8 +431,12 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["a009"],
-      "childrenIds": ["a010"],
+      "spouseIds": [
+        "a009"
+      ],
+      "childrenIds": [
+        "a010"
+      ],
       "generation": 9,
       "branch": "Tuyến tổ",
       "photo": "",
@@ -370,7 +453,9 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["a009"],
+      "spouseIds": [
+        "a009"
+      ],
       "childrenIds": [],
       "generation": 9,
       "branch": "Tuyến tổ",
@@ -388,8 +473,12 @@
       "deathPlace": "",
       "fatherId": "a009",
       "motherId": "a009w1",
-      "spouseIds": ["a010w"],
-      "childrenIds": ["a011"],
+      "spouseIds": [
+        "a010w"
+      ],
+      "childrenIds": [
+        "a011"
+      ],
       "generation": 10,
       "branch": "Tuyến tổ",
       "photo": "",
@@ -406,8 +495,12 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["a010"],
-      "childrenIds": ["a011"],
+      "spouseIds": [
+        "a010"
+      ],
+      "childrenIds": [
+        "a011"
+      ],
       "generation": 10,
       "branch": "Tuyến tổ",
       "photo": "",
@@ -424,8 +517,12 @@
       "deathPlace": "",
       "fatherId": "a010",
       "motherId": "a010w",
-      "spouseIds": ["a011w"],
-      "childrenIds": ["p001"],
+      "spouseIds": [
+        "a011w"
+      ],
+      "childrenIds": [
+        "p001"
+      ],
       "generation": 11,
       "branch": "Tuyến tổ",
       "photo": "",
@@ -442,8 +539,12 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["a011"],
-      "childrenIds": ["p001"],
+      "spouseIds": [
+        "a011"
+      ],
+      "childrenIds": [
+        "p001"
+      ],
       "generation": 11,
       "branch": "Tuyến tổ",
       "photo": "",
@@ -460,8 +561,17 @@
       "deathPlace": "",
       "fatherId": "a011",
       "motherId": "a011w",
-      "spouseIds": ["p001w"],
-      "childrenIds": ["p002", "p003", "p004", "p005", "p006", "p007"],
+      "spouseIds": [
+        "p001w"
+      ],
+      "childrenIds": [
+        "p002",
+        "p003",
+        "p004",
+        "p005",
+        "p006",
+        "p007"
+      ],
       "generation": 12,
       "branch": "Nhánh Đàm Phú Lạc",
       "photo": "",
@@ -478,8 +588,17 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["p001"],
-      "childrenIds": ["p002", "p003", "p004", "p005", "p006", "p007"],
+      "spouseIds": [
+        "p001"
+      ],
+      "childrenIds": [
+        "p002",
+        "p003",
+        "p004",
+        "p005",
+        "p006",
+        "p007"
+      ],
       "generation": 12,
       "branch": "Nhánh Đàm Phú Lạc",
       "photo": "",
@@ -496,7 +615,9 @@
       "deathPlace": "",
       "fatherId": "p001",
       "motherId": "p001w",
-      "spouseIds": ["p002w"],
+      "spouseIds": [
+        "p002w"
+      ],
       "childrenIds": [],
       "generation": 13,
       "branch": "Nhánh Đàm Phú Nhận",
@@ -514,7 +635,9 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["p002"],
+      "spouseIds": [
+        "p002"
+      ],
       "childrenIds": [],
       "generation": 13,
       "branch": "Nhánh Đàm Phú Nhận",
@@ -532,8 +655,15 @@
       "deathPlace": "",
       "fatherId": "p001",
       "motherId": "p001w",
-      "spouseIds": ["p003w"],
-      "childrenIds": ["p003a", "p003b", "p003c", "p003d"],
+      "spouseIds": [
+        "p003w"
+      ],
+      "childrenIds": [
+        "p003a",
+        "p003b",
+        "p003c",
+        "p003d"
+      ],
       "generation": 13,
       "branch": "Nhánh Đàm Phú Hồng",
       "photo": "",
@@ -550,8 +680,15 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["p003"],
-      "childrenIds": ["p003a", "p003b", "p003c", "p003d"],
+      "spouseIds": [
+        "p003"
+      ],
+      "childrenIds": [
+        "p003a",
+        "p003b",
+        "p003c",
+        "p003d"
+      ],
       "generation": 13,
       "branch": "Nhánh Đàm Phú Hồng",
       "photo": "",
@@ -568,7 +705,9 @@
       "deathPlace": "",
       "fatherId": "p003",
       "motherId": "p003w",
-      "spouseIds": ["p003ah"],
+      "spouseIds": [
+        "p003ah"
+      ],
       "childrenIds": [],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Hồng",
@@ -586,7 +725,9 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["p003a"],
+      "spouseIds": [
+        "p003a"
+      ],
       "childrenIds": [],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Hồng",
@@ -604,8 +745,13 @@
       "deathPlace": "",
       "fatherId": "p003",
       "motherId": "p003w",
-      "spouseIds": ["p003bw"],
-      "childrenIds": ["p003b1", "p003b2"],
+      "spouseIds": [
+        "p003bw"
+      ],
+      "childrenIds": [
+        "p003b1",
+        "p003b2"
+      ],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Hồng",
       "photo": "",
@@ -622,8 +768,13 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["p003b"],
-      "childrenIds": ["p003b1", "p003b2"],
+      "spouseIds": [
+        "p003b"
+      ],
+      "childrenIds": [
+        "p003b1",
+        "p003b2"
+      ],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Hồng",
       "photo": "",
@@ -676,7 +827,9 @@
       "deathPlace": "",
       "fatherId": "p003",
       "motherId": "p003w",
-      "spouseIds": ["p003ch"],
+      "spouseIds": [
+        "p003ch"
+      ],
       "childrenIds": [],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Hồng",
@@ -694,7 +847,9 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["p003c"],
+      "spouseIds": [
+        "p003c"
+      ],
       "childrenIds": [],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Hồng",
@@ -712,7 +867,9 @@
       "deathPlace": "",
       "fatherId": "p003",
       "motherId": "p003w",
-      "spouseIds": ["p003dh"],
+      "spouseIds": [
+        "p003dh"
+      ],
       "childrenIds": [],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Hồng",
@@ -730,7 +887,9 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["p003d"],
+      "spouseIds": [
+        "p003d"
+      ],
       "childrenIds": [],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Hồng",
@@ -748,8 +907,18 @@
       "deathPlace": "",
       "fatherId": "p001",
       "motherId": "p001w",
-      "spouseIds": ["p004w"],
-      "childrenIds": ["p004a", "p004b", "p004c", "p004d", "p004e", "p004f", "p004g"],
+      "spouseIds": [
+        "p004w"
+      ],
+      "childrenIds": [
+        "p004a",
+        "p004b",
+        "p004c",
+        "p004d",
+        "p004e",
+        "p004f",
+        "p004g"
+      ],
       "generation": 13,
       "branch": "Nhánh Đàm Phú Khiết",
       "photo": "",
@@ -766,8 +935,18 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["p004"],
-      "childrenIds": ["p004a", "p004b", "p004c", "p004d", "p004e", "p004f", "p004g"],
+      "spouseIds": [
+        "p004"
+      ],
+      "childrenIds": [
+        "p004a",
+        "p004b",
+        "p004c",
+        "p004d",
+        "p004e",
+        "p004f",
+        "p004g"
+      ],
       "generation": 13,
       "branch": "Nhánh Đàm Phú Khiết",
       "photo": "",
@@ -784,8 +963,14 @@
       "deathPlace": "",
       "fatherId": "p004",
       "motherId": "p004w",
-      "spouseIds": ["p004aw"],
-      "childrenIds": ["p004a1", "p004a2", "p004a3"],
+      "spouseIds": [
+        "p004aw"
+      ],
+      "childrenIds": [
+        "p004a1",
+        "p004a2",
+        "p004a3"
+      ],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Khiết",
       "photo": "",
@@ -802,8 +987,14 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["p004a"],
-      "childrenIds": ["p004a1", "p004a2", "p004a3"],
+      "spouseIds": [
+        "p004a"
+      ],
+      "childrenIds": [
+        "p004a1",
+        "p004a2",
+        "p004a3"
+      ],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Khiết",
       "photo": "",
@@ -874,8 +1065,14 @@
       "deathPlace": "",
       "fatherId": "p004",
       "motherId": "p004w",
-      "spouseIds": ["p004bw"],
-      "childrenIds": ["p004b1", "p004b2", "p004b3"],
+      "spouseIds": [
+        "p004bw"
+      ],
+      "childrenIds": [
+        "p004b1",
+        "p004b2",
+        "p004b3"
+      ],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Khiết",
       "photo": "",
@@ -892,8 +1089,14 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["p004b"],
-      "childrenIds": ["p004b1", "p004b2", "p004b3"],
+      "spouseIds": [
+        "p004b"
+      ],
+      "childrenIds": [
+        "p004b1",
+        "p004b2",
+        "p004b3"
+      ],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Khiết",
       "photo": "",
@@ -964,8 +1167,13 @@
       "deathPlace": "",
       "fatherId": "p004",
       "motherId": "p004w",
-      "spouseIds": ["p004cw"],
-      "childrenIds": ["p004c1", "p004c2"],
+      "spouseIds": [
+        "p004cw"
+      ],
+      "childrenIds": [
+        "p004c1",
+        "p004c2"
+      ],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Khiết",
       "photo": "",
@@ -982,8 +1190,13 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["p004c"],
-      "childrenIds": ["p004c1", "p004c2"],
+      "spouseIds": [
+        "p004c"
+      ],
+      "childrenIds": [
+        "p004c1",
+        "p004c2"
+      ],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Khiết",
       "photo": "",
@@ -1028,7 +1241,7 @@
     },
     {
       "id": "p004d",
-      "name": "Đàm Thắng Trịnh",
+      "name": "Đàm Thắng Trình",
       "gender": "male",
       "born": 1963,
       "died": null,
@@ -1036,8 +1249,14 @@
       "deathPlace": "",
       "fatherId": "p004",
       "motherId": "p004w",
-      "spouseIds": ["p004dw"],
-      "childrenIds": ["p004d1", "p004d2", "p004d3"],
+      "spouseIds": [
+        "p004dw"
+      ],
+      "childrenIds": [
+        "p004d1",
+        "p004d2",
+        "p004d3"
+      ],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Khiết",
       "photo": "",
@@ -1054,8 +1273,14 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["p004d"],
-      "childrenIds": ["p004d1", "p004d2", "p004d3"],
+      "spouseIds": [
+        "p004d"
+      ],
+      "childrenIds": [
+        "p004d1",
+        "p004d2",
+        "p004d3"
+      ],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Khiết",
       "photo": "",
@@ -1064,7 +1289,7 @@
     },
     {
       "id": "p004d1",
-      "name": "Đàm Thị Sơn",
+      "name": "Đàm Thị Sớm",
       "gender": "female",
       "born": 1987,
       "died": null,
@@ -1126,7 +1351,9 @@
       "deathPlace": "",
       "fatherId": "p004",
       "motherId": "p004w",
-      "spouseIds": ["p004eh"],
+      "spouseIds": [
+        "p004eh"
+      ],
       "childrenIds": [],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Khiết",
@@ -1144,7 +1371,9 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["p004e"],
+      "spouseIds": [
+        "p004e"
+      ],
       "childrenIds": [],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Khiết",
@@ -1162,12 +1391,20 @@
       "deathPlace": "",
       "fatherId": "p004",
       "motherId": "p004w",
-      "spouseIds": ["p004fw"],
-      "childrenIds": ["p004f1", "p004f2", "p004f3"],
+      "spouseIds": [
+        "p004fw"
+      ],
+      "childrenIds": [
+        "p004f1",
+        "p004f2",
+        "p004f3"
+      ],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Khiết",
       "photo": "",
-      "aliases": ["Đàm Chí Chính"],
+      "aliases": [
+        "Đàm Chí Chính"
+      ],
       "notes": "Ảnh đời 14 ghi Đàm Trung Chính, ảnh đời 15 ghi Đàm Chí Chính; cần kiểm chứng tên chuẩn."
     },
     {
@@ -1180,8 +1417,14 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["p004f"],
-      "childrenIds": ["p004f1", "p004f2", "p004f3"],
+      "spouseIds": [
+        "p004f"
+      ],
+      "childrenIds": [
+        "p004f1",
+        "p004f2",
+        "p004f3"
+      ],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Khiết",
       "photo": "",
@@ -1244,7 +1487,7 @@
     },
     {
       "id": "p004g",
-      "name": "Đàm Phú Chênh",
+      "name": "Đàm Phú Chếnh",
       "gender": "male",
       "born": 1974,
       "died": null,
@@ -1252,8 +1495,13 @@
       "deathPlace": "",
       "fatherId": "p004",
       "motherId": "p004w",
-      "spouseIds": ["p004gw"],
-      "childrenIds": ["p004g1", "p004g2"],
+      "spouseIds": [
+        "p004gw"
+      ],
+      "childrenIds": [
+        "p004g1",
+        "p004g2"
+      ],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Khiết",
       "photo": "",
@@ -1270,8 +1518,13 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["p004g"],
-      "childrenIds": ["p004g1", "p004g2"],
+      "spouseIds": [
+        "p004g"
+      ],
+      "childrenIds": [
+        "p004g1",
+        "p004g2"
+      ],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Khiết",
       "photo": "",
@@ -1324,8 +1577,15 @@
       "deathPlace": "",
       "fatherId": "p001",
       "motherId": "p001w",
-      "spouseIds": ["p005w"],
-      "childrenIds": ["p005a", "p005b", "p005c", "p005d"],
+      "spouseIds": [
+        "p005w"
+      ],
+      "childrenIds": [
+        "p005a",
+        "p005b",
+        "p005c",
+        "p005d"
+      ],
       "generation": 13,
       "branch": "Nhánh Đàm Phú Hạc",
       "photo": "",
@@ -1342,8 +1602,15 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["p005"],
-      "childrenIds": ["p005a", "p005b", "p005c", "p005d"],
+      "spouseIds": [
+        "p005"
+      ],
+      "childrenIds": [
+        "p005a",
+        "p005b",
+        "p005c",
+        "p005d"
+      ],
       "generation": 13,
       "branch": "Nhánh Đàm Phú Hạc",
       "photo": "",
@@ -1360,7 +1627,9 @@
       "deathPlace": "",
       "fatherId": "p005",
       "motherId": "p005w",
-      "spouseIds": ["p005ah"],
+      "spouseIds": [
+        "p005ah"
+      ],
       "childrenIds": [],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Hạc",
@@ -1378,7 +1647,9 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["p005a"],
+      "spouseIds": [
+        "p005a"
+      ],
       "childrenIds": [],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Hạc",
@@ -1396,7 +1667,9 @@
       "deathPlace": "",
       "fatherId": "p005",
       "motherId": "p005w",
-      "spouseIds": ["p005bh"],
+      "spouseIds": [
+        "p005bh"
+      ],
       "childrenIds": [],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Hạc",
@@ -1414,7 +1687,9 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["p005b"],
+      "spouseIds": [
+        "p005b"
+      ],
       "childrenIds": [],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Hạc",
@@ -1432,7 +1707,9 @@
       "deathPlace": "",
       "fatherId": "p005",
       "motherId": "p005w",
-      "spouseIds": ["p005ch"],
+      "spouseIds": [
+        "p005ch"
+      ],
       "childrenIds": [],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Hạc",
@@ -1450,7 +1727,9 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["p005c"],
+      "spouseIds": [
+        "p005c"
+      ],
       "childrenIds": [],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Hạc",
@@ -1468,8 +1747,13 @@
       "deathPlace": "",
       "fatherId": "p005",
       "motherId": "p005w",
-      "spouseIds": ["p005dw"],
-      "childrenIds": ["p005d1", "p005d2"],
+      "spouseIds": [
+        "p005dw"
+      ],
+      "childrenIds": [
+        "p005d1",
+        "p005d2"
+      ],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Hạc",
       "photo": "",
@@ -1486,8 +1770,13 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["p005d"],
-      "childrenIds": ["p005d1", "p005d2"],
+      "spouseIds": [
+        "p005d"
+      ],
+      "childrenIds": [
+        "p005d1",
+        "p005d2"
+      ],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Hạc",
       "photo": "",
@@ -1532,7 +1821,7 @@
     },
     {
       "id": "p006",
-      "name": "Đàm Phú Quyền",
+      "name": "Đàm Phú Quyên",
       "gender": "male",
       "born": null,
       "died": null,
@@ -1540,8 +1829,14 @@
       "deathPlace": "",
       "fatherId": "p001",
       "motherId": "p001w",
-      "spouseIds": ["p006w"],
-      "childrenIds": ["p006a", "p006b", "p006c"],
+      "spouseIds": [
+        "p006w"
+      ],
+      "childrenIds": [
+        "p006a",
+        "p006b",
+        "p006c"
+      ],
       "generation": 13,
       "branch": "Nhánh Đàm Phú Quyền",
       "photo": "",
@@ -1550,7 +1845,7 @@
     },
     {
       "id": "p006w",
-      "name": "Nguyễn Thị Triu",
+      "name": "Nguyễn Thị Trìu",
       "gender": "female",
       "born": null,
       "died": null,
@@ -1558,8 +1853,14 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["p006"],
-      "childrenIds": ["p006a", "p006b", "p006c"],
+      "spouseIds": [
+        "p006"
+      ],
+      "childrenIds": [
+        "p006a",
+        "p006b",
+        "p006c"
+      ],
       "generation": 13,
       "branch": "Nhánh Đàm Phú Quyền",
       "photo": "",
@@ -1576,8 +1877,13 @@
       "deathPlace": "",
       "fatherId": "p006",
       "motherId": "p006w",
-      "spouseIds": ["p006aw"],
-      "childrenIds": ["p006a1", "p006a2"],
+      "spouseIds": [
+        "p006aw"
+      ],
+      "childrenIds": [
+        "p006a1",
+        "p006a2"
+      ],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Quyền",
       "photo": "",
@@ -1594,8 +1900,13 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["p006a"],
-      "childrenIds": ["p006a1", "p006a2"],
+      "spouseIds": [
+        "p006a"
+      ],
+      "childrenIds": [
+        "p006a1",
+        "p006a2"
+      ],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Quyền",
       "photo": "",
@@ -1640,7 +1951,7 @@
     },
     {
       "id": "p006b",
-      "name": "Đàm Phú Tín",
+      "name": "Đàm Phú Tin",
       "gender": "male",
       "born": null,
       "died": null,
@@ -1666,7 +1977,9 @@
       "deathPlace": "",
       "fatherId": "p006",
       "motherId": "p006w",
-      "spouseIds": ["p006ch"],
+      "spouseIds": [
+        "p006ch"
+      ],
       "childrenIds": [],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Quyền",
@@ -1684,7 +1997,9 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["p006c"],
+      "spouseIds": [
+        "p006c"
+      ],
       "childrenIds": [],
       "generation": 14,
       "branch": "Nhánh Đàm Phú Quyền",
@@ -1702,8 +2017,13 @@
       "deathPlace": "",
       "fatherId": "p001",
       "motherId": "p001w",
-      "spouseIds": ["p007w"],
-      "childrenIds": ["p007a", "p007b"],
+      "spouseIds": [
+        "p007w"
+      ],
+      "childrenIds": [
+        "p007a",
+        "p007b"
+      ],
       "generation": 13,
       "branch": "Nhánh Đàm Phú Nam",
       "photo": "",
@@ -1720,8 +2040,13 @@
       "deathPlace": "",
       "fatherId": null,
       "motherId": null,
-      "spouseIds": ["p007"],
-      "childrenIds": ["p007a", "p007b"],
+      "spouseIds": [
+        "p007"
+      ],
+      "childrenIds": [
+        "p007a",
+        "p007b"
+      ],
       "generation": 13,
       "branch": "Nhánh Đàm Phú Nam",
       "photo": "",
@@ -1763,6 +2088,14 @@
       "photo": "",
       "aliases": [],
       "notes": "Vợ/con chưa rõ."
+    },
+    {
+      "childrenIds": [],
+      "generation": 13,
+      "branch": "Nhánh Đàm Phú Quyền",
+      "photo": "",
+      "aliases": [],
+      "notes": ""
     }
   ]
 }
