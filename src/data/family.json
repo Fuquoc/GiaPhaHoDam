@@ -1845,7 +1845,7 @@
     },
     {
       "id": "p006w",
-      "name": "Nguyễn Thị Trìu",
+      "name": "Nguyễn Thị Chìu",
       "gender": "female",
       "born": null,
       "died": null,
@@ -2088,14 +2088,6 @@
       "photo": "",
       "aliases": [],
       "notes": "Vợ/con chưa rõ."
-    },
-    {
-      "childrenIds": [],
-      "generation": 13,
-      "branch": "Nhánh Đàm Phú Quyền",
-      "photo": "",
-      "aliases": [],
-      "notes": ""
     }
   ]
 }

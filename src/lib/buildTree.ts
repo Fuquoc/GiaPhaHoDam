@@ -47,7 +47,7 @@ export function buildTree(
   }
 
   return {
-    name: person.name,
+    name: person.name || 'Chưa rõ tên',
     attributes: {
       id: person.id,
       spouse: spouseName,

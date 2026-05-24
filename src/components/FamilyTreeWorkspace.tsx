@@ -67,6 +67,10 @@ function parseNullableNumber(value: string) {
   return Number.isFinite(parsed) ? parsed : null;
 }
 
+function personName(person: Partial<Person>) {
+  return typeof person.name === 'string' && person.name.trim() ? person.name : 'Chưa rõ tên';
+}
+
 function PersonNode({
   nodeDatum,
   onClick,
@@ -248,7 +252,7 @@ export default function FamilyTreeWorkspace({ initialMembers }: Props) {
   const rootOptions = useMemo(
     () =>
       members
-        .filter((p) => p.id === 'root' || p.generation === 1 || p.name.includes('Đàm Phú Lạc'))
+        .filter((p) => p.id === 'root' || p.generation === 1 || personName(p).includes('Đàm Phú Lạc'))
         .sort((a, b) => (a.generation ?? 0) - (b.generation ?? 0)),
     [members]
   );
@@ -259,9 +263,9 @@ export default function FamilyTreeWorkspace({ initialMembers }: Props) {
     return members
       .filter(
         (p) =>
-          p.name.toLowerCase().includes(q) ||
-          p.aliases.some((a) => a.toLowerCase().includes(q)) ||
-          p.notes.toLowerCase().includes(q)
+          personName(p).toLowerCase().includes(q) ||
+          (p.aliases ?? []).some((a) => a.toLowerCase().includes(q)) ||
+          (p.notes ?? '').toLowerCase().includes(q)
       )
       .slice(0, 10);
   }, [members, query]);
@@ -377,7 +381,7 @@ export default function FamilyTreeWorkspace({ initialMembers }: Props) {
           className="h-9 appearance-none rounded-lg border border-slate-700 bg-slate-800 pl-3 pr-7 text-sm text-white"
         >
           {rootOptions.map((p) => (
-            <option key={p.id} value={p.id}>{p.name}</option>
+            <option key={p.id} value={p.id}>{personName(p)}</option>
           ))}
         </select>
       </div>
@@ -444,7 +448,7 @@ export default function FamilyTreeWorkspace({ initialMembers }: Props) {
             <p className="text-[10px] font-semibold uppercase tracking-widest text-slate-400">
               {isEditMode ? 'Chỉnh sửa' : 'Thông tin'}
             </p>
-            <h2 className="text-lg font-bold leading-tight text-slate-900">{selected.name}</h2>
+            <h2 className="text-lg font-bold leading-tight text-slate-900">{personName(selected)}</h2>
           </div>
         </div>
         {genderBadge && (
@@ -503,7 +507,7 @@ export default function FamilyTreeWorkspace({ initialMembers }: Props) {
           <div>
             <label className="block text-xs font-semibold uppercase tracking-wide text-slate-500">Họ tên</label>
             <input
-              value={selected.name}
+              value={personName(selected)}
               onChange={(e) => updateField('name', e.target.value)}
               className={inputCls}
             />
@@ -672,7 +676,7 @@ export default function FamilyTreeWorkspace({ initialMembers }: Props) {
                         <User size={12} />
                       </div>
                       <div className="min-w-0">
-                        <p className="truncate text-sm font-medium text-slate-900">{p.name}</p>
+                        <p className="truncate text-sm font-medium text-slate-900">{personName(p)}</p>
                         <p className="text-xs text-slate-500">Đời {p.generation ?? '?'}{p.born ? ` · ${p.born}` : ''}</p>
                       </div>
                     </button>
