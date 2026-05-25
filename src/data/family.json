@@ -607,7 +607,7 @@
     },
     {
       "id": "p002",
-      "name": "Đàm Phú Nhận",
+      "name": "Đàm Phú Nhạn",
       "gender": "male",
       "born": null,
       "died": 1947,
@@ -620,7 +620,7 @@
       ],
       "childrenIds": [],
       "generation": 13,
-      "branch": "Nhánh Đàm Phú Nhận",
+      "branch": "Nhánh Đàm Phú Nhạn",
       "photo": "",
       "aliases": [],
       "notes": "Mất 3/8/1947. Anh hùng liệt sĩ Sơn La. Gia phả ghi chưa có con."
@@ -640,10 +640,10 @@
       ],
       "childrenIds": [],
       "generation": 13,
-      "branch": "Nhánh Đàm Phú Nhận",
+      "branch": "Nhánh Đàm Phú Nhạn",
       "photo": "",
       "aliases": [],
-      "notes": "Vợ ông Đàm Phú Nhận."
+      "notes": "Vợ ông Đàm Phú Nhạn."
     },
     {
       "id": "p003",
